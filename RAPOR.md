@@ -50,6 +50,6 @@ net =dogru-(yanlis/4)
 | 5 | 0 | Net 5, Geliştirilmeli |Net sayiniz:5.0 Basari durumunuz: Gelistirilmeli |evet |
 | 0 | 20 | Net -5, Geliştirilmeli |Net sayiniz:-5.0 Basari durumunuz: Gelistirilmeli |evet |
 | 10 | 10 | Net 7,5, Orta |Net sayiniz:7.5 Basari durumunuz:  Orta |evet |
-| 15 | 10 | Geçersiz giriş | |evet |
-| 12 | 9 | Geçersiz giriş | |evet |
-| -1 | 5 | Geçersiz giriş | |evet |
+| 15 | 10 | Geçersiz giriş |Gecersiz giris |evet |
+| 12 | 9 | Geçersiz giriş |Gecersiz giris |evet |
+| -1 | 5 | Geçersiz giriş |Gecersiz giris |evet |
