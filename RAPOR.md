@@ -44,12 +44,12 @@ net =dogru-(yanlis/4)
 
 | Doğru | Yanlış | Beklenen | Programın sonucu | Doğru mu? |
 |---|---|---|---|---|
-| 20 | 0 | Net 20, Çok iyi | | |
-| 15 | 4 | Net 14, İyi | | |
-| 10 | 8 | Net 8, Orta | | |
-| 5 | 0 | Net 5, Geliştirilmeli | | |
-| 0 | 20 | Net -5, Geliştirilmeli | | |
-| 10 | 10 | Net 7,5, Orta | | |
-| 15 | 10 | Geçersiz giriş | | |
-| 12 | 9 | Geçersiz giriş | | |
-| -1 | 5 | Geçersiz giriş | | |
+| 20 | 0 | Net 20, Çok iyi |Net sayiniz:20.0 Basari durumunuz: Cok Iyi |evet |
+| 15 | 4 | Net 14, İyi |Net sayiniz:14.0 Basari durumunuz: Iyi |evet |
+| 10 | 8 | Net 8, Orta |Net sayiniz:8.0 Basari durumunuz:  Orta |evet |
+| 5 | 0 | Net 5, Geliştirilmeli |Net sayiniz:5.0 Basari durumunuz: Gelistirilmeli |evet |
+| 0 | 20 | Net -5, Geliştirilmeli |Net sayiniz:-5.0 Basari durumunuz: Gelistirilmeli |evet |
+| 10 | 10 | Net 7,5, Orta |Net sayiniz:7.5 Basari durumunuz:  Orta |evet |
+| 15 | 10 | Geçersiz giriş | |evet |
+| 12 | 9 | Geçersiz giriş | |evet |
+| -1 | 5 | Geçersiz giriş | |evet |
