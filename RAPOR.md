@@ -27,9 +27,16 @@ net =dogru-(yanlis/4)
 ## 4. Sözde Kod (Pseudocode)
 
 ```
-1.
-2.
-3.
+1. Başla
+2. Öğrencinin doğru ve yanlış sayısını al
+3. Boşları ve Neti hesapla
+4. Eğer Doğru veya boş sayısı 0 dan küçükse "geçersiz giriş" yaz.
+5. Değilse Eğer Doğru ve yanlışın toplamı 20den büyükse "geçersiz giriş" yaz.
+6. Değilse Eğer Net sayısı 20ye eşit veya kücük ve 15ten büyük ise "Çok iyi" yaz.
+7. Degilse Eger Net sayısı 15e eşit veya kücük ve  8den büyük ise "İyi" yaz
+8. Değilse Eğer Net sayısı 8e eşit veya kücük ve 5den büyük ise "Orta" Yaz.
+9. Değilse Eğer Net sayısı 5e eşit veya küçük ve -5e eşit veya büyük ise "Geliştirilmeli" yaz
+10.Bitir
 ```
 
 ## 5. Akış Şeması
@@ -37,7 +44,9 @@ net =dogru-(yanlis/4)
 ![Akış Şeması](docs/akis-semasi.png)
 
 ## 6. Başarı Durumu Koşulları
-<!-- Koşulları hangi sırayla ve hangi operatörlerle yazdığınızı, nedenini açıklayın. -->
+İlk başta dogru ve yanlısın 0 dan kücük girilmedigine emin olmak icin "if" kullandım.
+Eger ikisinden biri 0dan kücük degilse ama ikisinin toplamının 20yi asıp asmadıgını kontrol etmek icin "else if" kullandım.
+Eger hic bi giris hatalı degilse netin basarı durumunu kontrol etmek icin 4 kere daha "else if" kullandım.
 
 
 ## 7. Test Sonuçları
