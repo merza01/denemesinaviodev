@@ -5,13 +5,13 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-     System.out.println("Dogru sayinizi giriniz:");
-         int dogru=sc.nextInt();
+      System.out.println("Dogru sayinizi giriniz:");
+         double dogru=sc.nextInt();
             
          System.out.println("Yanlis sayinizi giriniz");
-         int yanlis=sc.nextInt();
+         double yanlis=sc.nextInt();
          
-         int bos=20-(dogru+yanlis);
+         double bos=20-(dogru+yanlis);
          double net =dogru-(yanlis/4);
         
          if(dogru+yanlis>20) {System.out.println("Gecersiz giris");}
