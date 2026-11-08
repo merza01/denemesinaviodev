@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="denemesinavi"/>
+        <attribute name="authors" value="lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-11-09 01:15:44 &#214;&#214;"/>
+        <attribute name="created" value="bGVub3ZvO0RFU0tUT1AtUDg1RDhVUDsyMDI2LTExLTA5OzAxOjA5OjEzIMOWw5Y7MzI3MA=="/>
+        <attribute name="edited" value="bGVub3ZvO0RFU0tUT1AtUDg1RDhVUDsyMDI2LTExLTA5OzAxOjE1OjQ0IMOWw5Y7MTszMzc5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dogru, yanlis, bos, net" type="Real" array="False" size=""/>
+            <output expression="&quot;Dogru sayinizi giriniz&quot;" newline="True"/>
+            <input variable="dogru"/>
+            <output expression="&quot;Yanlis sayinizi giriniz&quot;" newline="True"/>
+            <input variable="yanlis"/>
+            <assign variable="bos" expression="20-(dogru+yanlis)"/>
+            <assign variable="net" expression="dogru-(yanlis/4)"/>
+            <if expression="dogru&lt;0  or yanlis&lt;0">
+                <then>
+                    <output expression="&quot;Gecersiz giris&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="dogru+yanlis&gt;20">
+                        <then>
+                            <output expression="&quot;Ge&#231;ersiz giri&#351;&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="net&lt;=20 and net&gt;15">
+                                <then>
+                                    <output expression="&quot;Net sayiniz:&quot; &amp; net &amp; &quot; Basari durumunuz: &#199;ok iyi&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="net&lt;=15 and net&gt;8">
+                                        <then>
+                                            <output expression="&quot;Net sayiniz:&quot; &amp; net &amp; &quot; Basari durumunuz: &#304;yi&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="net&lt;=8 and net&gt;5">
+                                                <then>
+                                                    <output expression="&quot;Net sayiniz:&quot; &amp; net &amp; &quot; Basari durumunuz: Orta&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Net sayiniz:&quot; &amp; net &amp; &quot; Basari durumunuz: Gelistirilmeli&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
