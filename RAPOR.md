@@ -41,7 +41,7 @@ net =dogru-(yanlis/4)
 
 ## 5. Akış Şeması
 
-![Akış Şeması](docs/akis-semasi.png)
+![Akış Şeması](docs/denemesinavi.pdf)
 
 ## 6. Başarı Durumu Koşulları
 İlk başta dogru ve yanlısın 0 dan kücük girilmedigine emin olmak icin "if" kullandım.
