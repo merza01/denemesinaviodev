@@ -5,18 +5,23 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // TODO: 1. Kullanıcıdan doğru ve yanlış sayısını alın
+     System.out.println("Dogru sayinizi giriniz:");
+         int dogru=sc.nextInt();
+            
+         System.out.println("Yanlis sayinizi giriniz");
+         int yanlis=sc.nextInt();
+         
+         int bos=20-(dogru+yanlis);
+         int net =dogru-(yanlis/4);
+         
+         if (dogru+yanlis>20) {System.out.println("Gecersiz giris");}
+         if (dogru<0|| yanlis<0) { System.out.println("Gecersiz giris");}
+         else if (net<=20 && net>15) { System.out.println("Basari durumunuz: Cok Iyi");}
+         else if (net<=15 && net>8){ System.out.println("Bari durumunuz: Iyi");}
+         else if  (net<=8 && net>5) {System.out.println("Basari durumunuz:  Orta");}
+         else if (net<=5 && net>=-5) {System.out.println("Basari durumunuz: Gelistirilmeli");}     
 
-        // TODO: 2. Girdileri kontrol edin (negatif, toplam > 20, tam sayı)
-
-        // TODO: 3. Boş sayısını hesaplayın
-
-        // TODO: 4. Neti hesaplayın
-
-        // TODO: 5. Başarı durumunu belirleyin
-
-        // TODO: 6. Sonucu ekrana yazdırın
-
+        
         scanner.close();
     }
 }
