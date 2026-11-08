@@ -11,17 +11,18 @@ Eger kullanıcının girdigi degerler hataliysa "gecersiz giris" cıktısını v
 ## 2. Girdi - İşlem - Çıktı
 
 **Girdiler:**
--
+dogru , yanlis       
 
 **İşlemler:**
--
-
+bos=20-(dogru+yanlis) -> bosu hesaplamak icin
+net =dogru-(yanlis/4) -> neti hesaplamak icin 
 **Çıktılar:**
--
+basari durumu  mesajı / gecersiz giris mesajı
 
 ## 3. Matematiksel Formüller
 
--
+bos=20-(dogru+yanlis)
+net =dogru-(yanlis/4)
 
 ## 4. Sözde Kod (Pseudocode)
 
