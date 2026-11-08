@@ -4,7 +4,8 @@
 **Numara:** 690
 
 ## 1. Problem Analizi
-<!-- Problemi kendi cümlelerinizle yazın. -->
+Kullanicinin denemeden yaptıgı dogru ve  yanlislari aldiktan sonra netini hesaplamak ve netine gore basarı durumunu olcmektir.
+Eger kullanıcının girdigi degerler hataliysa "gecersiz giris" cıktısını vermektir.
 
 
 ## 2. Girdi - İşlem - Çıktı
