@@ -1,6 +1,6 @@
 # Rapor
 
-**Ad Soyad: Merza Züleyha Kulus**
+**Ad Soyad:** Merza Züleyha Kulus
 **Numara:** 690
 
 ## 1. Problem Analizi
