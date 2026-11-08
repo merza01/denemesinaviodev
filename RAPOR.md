@@ -1,7 +1,7 @@
 # Rapor
 
-**Ad Soyad:**
-**Numara:**
+**Ad Soyad: Merza Züleyha Kulus**
+**Numara:** 690
 
 ## 1. Problem Analizi
 <!-- Problemi kendi cümlelerinizle yazın. -->
